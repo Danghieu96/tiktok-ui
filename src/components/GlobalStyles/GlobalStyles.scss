@@ -1,8 +1,11 @@
 @import 'normalize.css';
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 :root {
     --primary: #fe2c55;
+    --black: #000;
+    --white: #fff;
+    --text-color: #333;
 
     // Default layout
     --default-layout-header-height: 60px;
@@ -20,7 +23,21 @@ html {
 }
 
 body {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     line-height: 1.5;
+    text-rendering: optimizespeed;
+    color: var(--text-color);
+}
+
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+
+a[href] {
+    color: var(--text-color);
+    text-decoration: none;
 }
