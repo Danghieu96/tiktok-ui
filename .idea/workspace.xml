@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e1a624-1b51-4f4b-a203-22c5cac5c1a5" name="Changes" comment="" />
+    <list default="true" id="33e1a624-1b51-4f4b-a203-22c5cac5c1a5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/components/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/components/Header/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +32,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/var/www/html/react/tiktok-ui",
@@ -47,6 +53,8 @@
       <option name="presentableId" value="Default" />
       <updated>1690208474205</updated>
       <workItem from="1690208477136" duration="762000" />
+      <workItem from="1690879777227" duration="96000" />
+      <workItem from="1690880085942" duration="1072000" />
     </task>
     <servers />
   </component>
