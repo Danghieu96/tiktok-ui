@@ -30,7 +30,7 @@ const MENU_ITEMS = [
         icon: <FontAwesomeIcon icon={faEarthAsia} />,
         title: 'English',
         children: {
-            title: 'language',
+            title: 'Language',
             data: [
                 {
                     type: 'language',
@@ -100,6 +100,7 @@ function Header() {
                 <Link to={config.routes.home} className={cx('logo-link')}>
                     <img src={images.logo} alt="TikTok" />
                 </Link>
+                <Button>test</Button>
                 <Search />
                 <div className={cx('actions')}>
                     {currentUser ? (
